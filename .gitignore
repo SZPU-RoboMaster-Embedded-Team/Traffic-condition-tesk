@@ -1,0 +1,51 @@
+# --- IDE & Build Systems ---
+bin/
+obj/
+build/
+Debug/
+Release/
+*.bak
+*.dep
+*.uvgui.*
+*.uvoptx
+*.uvprojx.bak
+
+# --- STM32 (CubeIDE / Keil / IAR) ---
+.mxproject
+*.launch
+*.settings/
+*.pdm
+*.list
+*.map
+*.hex
+*.bin
+*.elf
+*.srec
+
+# --- Qt (UI Development) ---
+# 过滤 Qt Creator 产生的临时文件
+Makefile*
+*-build-*
+*.app
+*.user
+*.pro.user*
+*.qmake.stash
+ui_*.h
+moc_*.cpp
+qrc_*.cpp
+
+# --- RoboMaster & Data Analysis ---
+# 过滤巨大的路测原始数据，只保留处理后的脚本
+*.log
+*.bag
+*.ulog
+*.csv
+# 如果你想保留某些特定的 csv，可以用 ! 排除，例如：
+# !important_config.csv
+
+# --- System & Misc ---
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
