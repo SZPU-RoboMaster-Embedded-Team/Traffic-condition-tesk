@@ -49,3 +49,14 @@ Thumbs.db
 .vscode/
 .idea/
 *.swp
+# --- 补充 Keil MDK-ARM 独有编译垃圾 ---
+*.o
+*.d
+*.crf
+*.htm
+*.map
+*.lst
+Objects/
+Listings/
+*.uvguix.*
+*.scvd
